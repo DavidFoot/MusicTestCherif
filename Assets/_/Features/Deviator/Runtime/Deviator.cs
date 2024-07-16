@@ -10,15 +10,6 @@ namespace Deviator.Runtime
 
         #region Utils
 
-        private void OnTriggerEnter2D(Collider2D collision)
-        {
-            Debug.Log("Collision");
-            if (collision != null)
-            {
-                //collision.gameObject.GetComponent<Rigidbody2D>().AddForce(Vector2.up * 15f,ForceMode2D.Impulse);
-            }
-        }
-
         #endregion
     }
 }
