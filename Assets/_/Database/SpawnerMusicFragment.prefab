@@ -78,5 +78,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _fragment: {fileID: 9076249446955848420, guid: 6a3ac76f56886ae4bace89613a161efb, type: 3}
   _poolContainer: {fileID: 5926718766029050012}
-  _fragmentVelocity: 20
+  _fragmentVelocity: 30
   _fragmentSpawnDelay: 0.1

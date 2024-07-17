@@ -62,8 +62,9 @@ namespace FragmentSpawner.Runtime
                 GameObject fragment = GetAvalaibleFragment();
                 fragment.SetActive(true);
                 _fragments.Remove(fragment);
-                fragment?.GetComponent<Rigidbody2D>().AddForce(Vector2.left * _fragmentVelocity, ForceMode2D.Impulse);
+                fragment?.GetComponent<Rigidbody2D>().AddForce( -transform.right * _fragmentVelocity, ForceMode2D.Impulse);
                 yield return new WaitForSeconds(_fragmentSpawnDelay);
+                
             }
         }
         

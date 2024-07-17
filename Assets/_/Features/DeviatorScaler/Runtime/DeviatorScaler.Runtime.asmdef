@@ -1,0 +1,16 @@
+{
+    "name": "DeviatorScaler.Runtime",
+    "rootNamespace": "DeviatorScaler.Runtime",
+    "references": [
+        "GUID:488157d1d1b37af469ccb616b30543e9"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
